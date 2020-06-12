@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BMNSeats</string>
+    <string name="title_activity_home">Home</string>
+    <string-array name="itemNames">
+
+        <item>Finger Food</item>
+        <item>Burger</item>
+        <item>Pasta</item>
+        <item>Pizza</item>
+        <item>Rice</item>
+        <item>Western Soup</item>
+        <item>Biriyani</item>
+        <item>Chili Chiken</item>
+        <item>Vegetables</item>
+        <item>Juice</item>
+        <item>Soft Drinksl</item>
+
+
+    </string-array>
+
+    <string-array name="payment_method">
+        <item>Cash</item>
+        <item>Debit or Credit Card</item>
+        <item>Mobile Banking</item>
+    </string-array>
+
+
+    <string name="title">Sign out</string>
+    <string name="message">Do You Want to Exit??</string>
+    <string name="title_activity_see_direction">Map</string>
+</resources>

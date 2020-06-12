@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backghome"
+    android:orientation="vertical"
+    tools:context=".Homedelivery">
+<TextView android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Please!!! Make sure You are inside Dhaka..."
+    android:textSize="40sp"
+    android:layout_marginTop="50sp"
+    android:textColor="@color/orange1"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:scrollHorizontally="true"
+    />
+  <TextView android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Your Location"
+      android:layout_marginTop="70sp"
+      android:textColor="@color/white1"
+      android:textSize="30dp"
+      />
+
+  <EditText android:id="@+id/editText1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Enter your location here"
+      android:textColor="@color/white"
+      android:layout_marginTop="15dp"
+      android:textColorHint="@color/gray"
+      />
+    <TextView android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/white1"
+        android:textSize="30dp"
+        />
+    <EditText android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your City here"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@color/gray"
+        />
+  <Button android:id="@+id/button2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Show Delivery Cost"
+      android:textColor="@color/white1"
+      android:background="@color/colorAccent"
+      android:layout_marginTop="30sp"
+
+      />
+  <Button android:id="@+id/button1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Confirm"
+      android:textSize="20sp"
+      android:layout_marginTop="50sp"
+      android:enabled="false"
+      android:padding="20sp"
+      />
+
+
+</LinearLayout>

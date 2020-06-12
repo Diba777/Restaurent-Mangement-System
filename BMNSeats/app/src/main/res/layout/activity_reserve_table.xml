@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/red"
+
+    tools:context=".ReserveTable">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reserve Your Table"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:layout_marginTop="30sp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableOne"
+                    android:text="Table 1"
+                    android:layout_marginTop="40sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableTwo"
+                    android:text="Table 2"
+                    android:layout_marginTop="40sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableThree"
+                    android:text="Table 3"
+                    android:layout_marginTop="40sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableFour"
+                    android:text="Table 4"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableFive"
+                    android:text="Table 5"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableSix"
+                    android:text="Table 6"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableSeven"
+                    android:text="Table 7"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableEight"
+                    android:text="Table 8"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableNine"
+                    android:text="Table 9"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableTen"
+                    android:text="Table 10"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableEleven"
+                    android:text="Table 11"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableTwelve"
+                    android:text="Table 12"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="20sp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thanks For your reservation!!"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:layout_marginTop="60dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+

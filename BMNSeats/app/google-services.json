@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "662388433860",
+    "firebase_url": "https://bmns-eats.firebaseio.com",
+    "project_id": "bmns-eats",
+    "storage_bucket": "bmns-eats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662388433860:android:bed45eff46566909",
+        "android_client_info": {
+          "package_name": "com.example.bmnseats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662388433860-ulqgoket3rg5kj4pihlprgf2fbe0juab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bmnseats",
+            "certificate_hash": "1792ef900af4d64b518d5af674a32aa37f021949"
+          }
+        },
+        {
+          "client_id": "662388433860-cg9mqlvh0jnq89am6o9690akq6fv883f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF17r47PakeW5cBColwueLx8-AK6LGAEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662388433860-cg9mqlvh0jnq89am6o9690akq6fv883f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

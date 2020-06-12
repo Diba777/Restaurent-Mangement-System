@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image1"
+    tools:context=".DebitCredit">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A/C Holder Name"
+        android:textColor="@color/white1"
+        android:layout_marginTop="70sp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/acHolderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter A/C Holder's name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white1"
+        android:textStyle="italic"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card No"
+        android:textSize="20dp"
+        android:textColor="@color/white1"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:textColorHint="@color/white1"
+        android:id="@+id/cardNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="Enter Card number"
+        android:textStyle="italic"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/proceedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proceed"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

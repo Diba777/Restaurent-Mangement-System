@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundbmns"
+    tools:context=".Aboutus">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/logo4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Live Life And Eat"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WHAT MADE US GREAT IS STILL \n WHAT MAKES US GREAT"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BNMSEATS Corporation, based in Louisville, Kentucky, \n is one of the few brands in America that can boast a rich, decades-long history of success and innovation. \n  It all started with one cook who created a soon-to-be world-famous recipe more than 70 years ago, \n a list of secret herbs and spices scratched out on the back of the door to his kitchen.\n That cook was Colonel Harland Sanders, of course, and now BNMSeats is the world’s most popular chicken restaurant chain,\n specializing in that same Original Recipe® along with Extra Crispy™ chicken, home-style sides and buttermilk biscuits.\n There are over 21,000 KFC outlets in more than 130 countries and territories around the world. \n And you know what? There’s still a cook in a kitchen in every last one of them, freshly preparing delicious, \ncomplete family meals at affordable prices.\n"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:textStyle="italic"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
